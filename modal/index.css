@@ -1,0 +1,69 @@
+body {
+  background-color: #efefef;
+  margin: 0px;
+}
+
+.container {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #00aaff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0011ff;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  background-color: white;
+  z-index: 1001;
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+  padding: 10px;
+  overflow: auto;
+}
+
+.modal-header {
+  font-size: 25px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+
+.modal-body {
+  padding: 20px 10px;
+}
+
+#close-modal {
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: #efefef;
+  padding: 50px 100px;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.star-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 10px 0;
+
+  .star {
+    padding: 0 5px;
+    cursor: pointer;
+  }
+
+  .selected {
+    color: orange;
+  }
+
+  .hover {
+    color: yellow;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
