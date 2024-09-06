@@ -1,5 +1,7 @@
-// Convert to n x n Tic Tac Toe based on user input
+// TODO: Convert to n x n Tic Tac Toe based on user input
+// TODO: Draw a line and translate & rotate according to result
 
+// TODO: Event Bubbling?
 let board = [
   [0, 0, 0],
   [0, 0, 0],
@@ -116,5 +118,3 @@ function resetBoard() {
   fillCount = 0;
   onGoing = true;
 }
-
-// EVENT BUBBLING ??
