@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-wrap {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4000px;
+  display: flex;
+  /* will-change: transform; */
+  background-color: black;
+}
+
+.slider-item {
+  position: absolute;
+  flex: 1;
+  overflow: hidden;
+  background-color: red;
+}
+
+.img-div {
+  position: relative;
+  left: 1%;
+  top: 2.5%;
+  width: 98%;
+  height: 95%;
+  background-size: cover;
+  background-position: center;
+}

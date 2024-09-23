@@ -1,0 +1,42 @@
+body {
+  background-color: #efefef;
+  padding: 50px 100px;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.inputs {
+  margin-top: 20px;
+}
+
+.input,
+.input:hover,
+.input:active {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid blue;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.input:focus {
+  border-bottom: 2px solid blue;
+}
+
+.input:nth-child(1) {
+  cursor: pointer;
+  pointer-events: all;
+}

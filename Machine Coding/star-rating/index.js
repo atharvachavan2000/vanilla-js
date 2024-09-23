@@ -7,8 +7,8 @@ let cur_rating = 0;
 // This data-index, can later be retrieved as => querySelector(.start[data-index="1"]);
 // e.target.dataset.index;
 
-// TODO: Read dataset
-// TODO: Read events => click, mouseover, mouseleave
+// event.target.datasets => datasets contain all key-value attributes of 'data-*' regex
+// events => clicl, dblclick, mousedown, mouseup, mouseover (mouseenter: does not bubble), mouseout (mouseleave: does not bubble)
 
 // TODO: read icons
 // start => &#9733

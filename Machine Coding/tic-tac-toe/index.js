@@ -1,7 +1,6 @@
 // TODO: Convert to n x n Tic Tac Toe based on user input
 // TODO: Draw a line and translate & rotate according to result
 
-// TODO: Event Bubbling?
 let board = [
   [0, 0, 0],
   [0, 0, 0],
@@ -31,6 +30,7 @@ function initialiseGameBoard() {
   }
   boardContainer.innerHTML = h;
 
+  // Event Bubbling - Single Event Listener on Parent vs Multiple on Child
   boardContainer.addEventListener("click", (e) => {
     if (onGoing) {
       const [row, col] = e.target.id.split("-");
